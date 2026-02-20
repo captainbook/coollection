@@ -20,7 +20,7 @@ if (!function_exists('coollect')) {
     }
 }
 
-if (!class_exists(Illuminate\Support\Collection::class)) {
+if (!class_exists(\Illuminate\Support\Collection::class)) {
     /**
      * @codeCoverageIgnore
      */
