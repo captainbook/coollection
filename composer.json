@@ -18,10 +18,10 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
-        "pragmarx/ia-collection": "~5.0|~6.0|~7.0|~8.0",
+        "php": "^8.2|^8.3|^8.4",
+        "pragmarx/ia-collection": "dev-laravel-12-with-php-v84",
         "pragmarx/ia-str": "~5.0|~6.0|~7.0",
-        "pragmarx/ia-arr": "~5.0|~6.0|~7.0|~8.0"
+        "pragmarx/ia-arr": "dev-laravel-12-with-php-v84"
     },
     "require-dev": {
         "mockery/mockery": "~1.0",
@@ -33,6 +33,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/captainbook/ia-collection.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/captainbook/ia-arr.git"
         }
     ],
     "autoload": {
